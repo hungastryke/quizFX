@@ -1,0 +1,12 @@
+body {background: #000;}
+.container {max-height: 100%; text-align: center; width: 100%;}
+.genesis {background: url(../img/background.png); background-repeat: repeat-x; margin: 15% auto 10% auto; text-align: left; width: 300px; padding: 20px 40px; border: 1px solid #CCC; -moz-border-radius: 5px; -webkit-border-radius: 5px; -moz-box-shadow: 0 1px 30px #CCC; -webkit-box-shadow: 0 1px 10px #CCC; font: 16px arial, helvetica, times new roman; color: #666;}
+.quiz {margin: 10px 0px 20px 0px;}
+.quizQuestions {background: #FFF; width: 330px; padding: 10px 25px 20px 25px; margin-left: -40px;}
+input {margin: 5px 15px;}
+.submission {background: url(../img/shuffler.png); background-repeat: repeat-x; margin: -10px auto 0px auto; width: 100px; padding: 5px 10px; text-align: center; border: 1px solid #999; -moz-border-radius: 5px; -webkit-border-radius: 5px; color: #666;}
+.submission:hover {cursor: pointer; color: #0099CC; background: #FFF; border: 1px solid #0099CC;}
+.answer, .tryAgain, .thankYou {margin: 25% auto 10% auto; background: transparent; width: 500px; padding: 20px; text-align: center; font: 24px arial, helvetica, times new roman; color: #FFF; display: none; letter-spacing: 1px}
+span, a {font: 12px arial, helvetica; color: #FFF; text-decoration: none;}
+#answerYes:hover, #answerNo:hover, a:hover {cursor: pointer; text-decoration: underline;}
+p {margin-top: 5px;}
